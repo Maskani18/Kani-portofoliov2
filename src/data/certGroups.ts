@@ -1,4 +1,4 @@
-import type { CertGroup } from './site';
+import type { CertGroup } from './site.ts';
 
 /**
  * Certificate taxonomy for Maskani.

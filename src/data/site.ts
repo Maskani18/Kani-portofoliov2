@@ -25,12 +25,12 @@ import {
   RESUME,
   COMPANY,
   PORTRAIT_IMAGE,
-} from '../config/Identity';
-import { rawProjects } from './projects';
-import { rawCertificates } from './certificates';
-import { CERT_GROUPS } from './certGroups';
-import { galleryLabel } from './galleryLabels';
-import type { IconName } from '../lib/utils';
+} from '../config/Identity.ts';
+import { rawProjects } from './projects.ts';
+import { rawCertificates } from './certificates.ts';
+import { CERT_GROUPS } from './certGroups.ts';
+import { galleryLabel } from './galleryLabels.ts';
+import type { IconName } from '../lib/utils.ts';
 
 export type Language = 'en' | 'id';
 export type LocalizedText = { en: string; id: string };

@@ -53,8 +53,8 @@ import {
   TIMEZONE,
   TIMEZONE_LABEL,
   RESUME,
-} from './Identity';
-import { S } from '../data/site';
+} from './Identity.ts';
+import { S } from '../data/site.ts';
 
 export type EnvRecord = Record<string, string | boolean | undefined>;
 

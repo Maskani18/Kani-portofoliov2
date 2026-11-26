@@ -1,4 +1,4 @@
-import type { RawProject } from './site';
+import type { RawProject } from './site.ts';
 
 /** Raw (bilingual) project entries — normalized by catalog.ts into `S.projects`. */
 export const rawProjects: RawProject[] = [
